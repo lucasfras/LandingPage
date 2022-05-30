@@ -1,0 +1,313 @@
+/* ----------------------------
+/*  Name: Landing Page
+    Author: Lucas
+    Version: 1
+/* -------------------------- */
+
+
+body {
+    background: rgb(34,195,156);
+    background: linear-gradient(0deg, rgba(34,195,156,1) 22%, rgba(45,203,253,1) 100%); 
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    line-height: 100%;
+    margin: 0;
+}
+
+
+header {
+    margin: 1rem 10rem;
+}
+
+p {
+    color:#7D7987;
+}
+
+
+.nav-options ul a {
+    text-decoration: none;
+    color: #1F1534;
+    padding: 0.2rem 0.8rem;
+    font-family: 'Dongle', sans-serif;
+    
+}
+
+.nav-options ul a:hover {
+    outline: 0;
+    background-color: #1F1534;
+    color:white;
+    border-radius: 2rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h2{ 
+    color: #233348;
+    font-size: 3rem;
+    font-family: 'Dongle', sans-serif;
+}
+
+.content {
+    font-size: .9rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content-img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+    align-items: center;
+}
+
+.content-description {
+    width: 25rem;
+}
+
+.content-description a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #458FF6;
+    border-radius: 55px;
+    color:white;
+    padding: 10px 20px;
+    margin-top: 1rem;
+}
+
+.content-description a:hover {
+    background-color: #1b4a8c;
+}
+
+
+.page-1-background{
+    background-image: url("./assets/images/page1-background.png");
+    background-repeat: no-repeat;
+}
+.page-1 {
+    margin: 1rem 10rem;
+}
+.page-1-description {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: .9rem;
+}
+.page-1-description hr {
+    width: 5%;
+    background: black;
+    border-radius: 5px;
+}
+
+.page-1-items{
+    align-items: center;
+    text-align: center;
+}
+
+.learnMore {
+    text-align: center;
+}
+
+.learnMore a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 5rem;
+    border: #458FF6;
+    color: #458FF6;
+    border-style: solid;
+    border-radius: 5rem;
+    border-width: .15rem;
+    padding: 1rem 3rem;
+}
+
+.learnMore a:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+.page-1-items ul{
+    text-align: left;
+    list-style: none;
+    display: flex ;
+    flex-wrap: wrap;
+    font-size: .9rem;
+    justify-content: space-between;
+}
+
+.page-1-items ul li {
+    width: 30%;
+    margin: .8rem;
+    background-color: white;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.page-1-items ul li p {
+    margin: 1rem;
+    margin-bottom: 3rem;
+    margin-left:2rem;
+
+}
+.page-1-items ul li h1 {
+    margin: 0 2rem;
+    font-size: 1.3rem;
+}
+
+.page-1-items ul li img{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    block-size: 4rem;
+}
+
+.page-2{
+    margin: 1rem 10rem;
+}
+
+.content-1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-2 {
+    display: flex;
+}
+
+.content-1-description {
+    margin: 1rem 4rem;
+    font-size: 1rem;
+}
+
+.content-1 hr {
+    margin-left: 0;
+    width:10%;
+    border-radius: 10px;
+}
+
+.content-1-description a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: #458FF6;
+    color: #458FF6;
+    border-style: solid;
+    border-radius: 5rem;
+    border-width: .15rem;
+    padding: .5rem 3rem;
+}
+
+.content-1-description a:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+.content-1 img {
+    width: 90%;
+}
+
+.content-2 img {
+    width: 90%;
+}
+.content-2-description {
+    margin: 1rem 4rem;
+    font-size: 1rem;
+}
+
+.content-2 hr {
+    margin-left: 0;
+    width:10%;
+    border-radius: 10px;
+}
+
+.content-2-description a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: #458FF6;
+    color: #458FF6;
+    border-style: solid;
+    border-radius: 5rem;
+    border-width: .15rem;
+    padding: .5rem 3rem;
+}
+
+.content-2-description a:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding: .5rem 0 4rem 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 10rem 0 10rem;
+    color:white;
+    font-size: 1rem;
+}
+
+.footer-content h1{
+    font-size: 2rem;
+}
+
+.footer-content h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-description p{
+    color:white;
+    max-width: 50%;
+    font-size: .9rem;
+}
+
+.footer-company {
+    display: grid;
+    
+}
+
+.footer-company a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    
+}
+
+.footer-region a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+}
+
+.footer-help a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+}
+
+.footer-region{
+    display: grid;
+}
+
+.footer-help{
+    display: grid;
+}
