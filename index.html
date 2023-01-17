@@ -12,14 +12,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet"> 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <h2>Trafalgar</h2>
+            <a href="javascript:void(0);" class="iconMenu" onclick="myFunction()">
+                <i class="fa fa-bars" display="hididen"></i>
+              </a>
             <div class="nav-options">
-                <ul>
+                <ul class="myLinks">
                     <il>
                         <a href="#">Home</a>
                     </il>
@@ -60,7 +63,41 @@
                 <p>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
             </div>
 
-            <div class="page-1-items">
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="./assets/images/icon/1.svg">
+                    <h1>Search doctor</h1>
+                    <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/images/icon/2.svg">
+                    <h1>Online pharmacy</h1>
+                    <p>Buy  your medicines with our mobile application with a simple delivery system</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/images/icon/3.svg">
+                    <h1>Consultation</h1>
+                    <p>Free consultation with our trusted doctors and get the best recomendations</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/images/icon/4.svg">
+                    <h1>Details info</h1>
+                    <p>Free consultation with our trusted doctors and get the best recomendations</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/images/icon/5.svg">
+                    <h1>Emergency care</h1>
+                    <p>You can get 24/7 urgent care for yourself or your children and your lovely family</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/images/icon/6.svg">
+                    <h1>Tracking</h1>
+                    <p>Track and save your medical history and health data for a healthy life</p>
+                </div>
+            </div>
+
+            <!-- <div class="page-1-items">
                 <ul>
                     <li>
                         <img src="./assets/images/icon/1.svg">
@@ -94,7 +131,7 @@
                         <p>Track and save your medical history and health data for a healthy life</p>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <div class="learnMore">
                 <a href="#">Learn more</a>
             </div>
@@ -165,5 +202,5 @@
     </footer>
 </body> 
     <!-- SCRIPTS -->
-    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/menu.js"></script>
 </html>
